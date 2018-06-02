@@ -1,0 +1,6 @@
+#!/bin/bash
+now=$(date +"%m_%d_%Y-%H-%M-%S")
+filename=webvid_$now
+echo begin recording $filename
+ffmpeg -s 800x600 -i /dev/video0 -framerate 24 /home/pi/Projects/AutoVideoRecorder/videos/$now.avi
+echo ERROR

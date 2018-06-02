@@ -1,0 +1,7 @@
+1) sudo apt-get install ffmpeg
+2) mkdir /Projects
+3) mkdir /Projects/AutoVideoRecorder
+4) mkdir /Projects/AutoVideoRecorder/videos
+2) append to /home/pi/.bashrc:
+	echo "Running Auto Video Recorder Script"
+	/home/pi/Projects/AutoVideoRecorder/recordVideotoFile
